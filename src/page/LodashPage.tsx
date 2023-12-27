@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Input, Button, Space, Card } from 'antd';
-import { debounce, throttle, safeGet, deepEqual, isEmpty, pick, omit } from '../utils/loadsh';
+import { debounce, throttle, safeGet, deepEqual, isEmpty, pick, omit } from '../utils/lodashUtils';
 
 const { TextArea } = Input;
 
